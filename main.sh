@@ -1027,7 +1027,6 @@ perform_initial_setup() {
 
   # Install required tools
   echo -e "${CYAN}Updating package lists and installing dependencies...${RESET}" # Updating package lists and installing dependencies...
-  sudo apt update
   sudo apt install -y build-essential curl pkg-config libssl-dev git figlet certbot rustc cargo cron
 
   # Default path for the Cargo environment file.
